@@ -34,6 +34,7 @@ ul{
     flex-wrap: wrap;
     gap: 16px;
     margin: 0;
+    margin-top: -1px;
     margin-bottom: 80px;
     background-color: #1F2937;
     padding-bottom: 66px;
