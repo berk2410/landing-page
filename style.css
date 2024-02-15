@@ -17,13 +17,16 @@ ul{
 .header{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-evenly;
     padding: 0px;
     padding-bottom: 45px;
+    justify-content: space-evenly;
+    gap: 400px;
 }
 .header .leftLink{
     font-size: 24px;
     color: #F9FAF8;
+    display: flex;
+    gap: 16px;
 }
 .header .rightLink{
     font-size: 18px;
@@ -31,6 +34,11 @@ ul{
     display: flex;
     gap: 16px;
     align-items: center;
+}
+.logo{
+    height: 30px;
+    width: 27px;
+
 }
 .top1{
     display: flex;
@@ -58,7 +66,7 @@ ul{
     color: #6d747d;
 }
 .button {
-    background-color: #3882f6;
+    background-color: #0b5bc3;
     color: white;
     width: 100px;
     height: 30px;
@@ -68,6 +76,9 @@ ul{
     font-size: 15px;
     margin-top: 5px;
 }
+.button:hover{
+    transform: scale(1.1);
+}
 .photoArea {
     color: #F9FAF8;
     background-color: #6d747d;
@@ -76,6 +87,18 @@ ul{
     align-items: center;
     width: 400px;
     height: auto;
+    border-radius: 10px;
+}
+.areasPhoto{
+    width: 400px;
+    border-radius: 10px;
+    height: auto;
+    transition: transform 0.3s;
+    filter: brightness(50%)
+}
+.areasPhoto:hover{
+    transform: scale(1.1);
+    filter: brightness(100%)
 }
 .information{
     text-align: center;
@@ -90,12 +113,13 @@ ul{
     justify-content:center;
     gap: 48px;
     margin-bottom: 70px;
+    flex-wrap: wrap;
 
 }
 .box {
     height: 150px;
     width: 142px;
-    border: solid 4px #3882f6;
+    border: solid 4px #243248;
     border-radius: 10px;
     background-color: black;
 }
