@@ -165,3 +165,14 @@ ul{
     font-size: 15px;
     align-self: center;
 }
+.footer{
+    height: 74px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text{
+    color: white;
+    font-size: 18px;
+}
