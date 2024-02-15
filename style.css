@@ -79,3 +79,36 @@ p {
     width: 400px;
     height: auto;
 }
+.information{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-top: -20px;
+    margin-bottom: 80px;
+}
+.content{
+    display: flex;
+    justify-content:center;
+    gap: 48px;
+
+}
+.box {
+    height: 150px;
+    width: 142px;
+    border: solid 4px #3882f6;
+    border-radius: 10px;
+}
+
+.text {
+    text-align: center;
+    color: grey;
+    margin-top: 4px;
+
+}
+.sq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 142px;
+}
