@@ -10,13 +10,6 @@ a{
 ul{
     list-style-type: none;
 }
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
 .header{
     background-color: #1F2937;
     display: flex;
@@ -91,6 +84,7 @@ p {
     display: flex;
     justify-content:center;
     gap: 48px;
+    margin-bottom: 70px;
 
 }
 .box {
@@ -111,4 +105,29 @@ p {
     flex-direction: column;
     align-items: center;
     width: 142px;
+}
+.word{
+    
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        background-color: #e5e7eb;
+}
+
+.wordText{
+    width: 700px;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 80px;
+    margin: 10;
+    padding: 0;
+}
+.wordSign{
+    margin-bottom: 80px;
+    align-self: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 450px;
 }
