@@ -246,7 +246,6 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 10px;
-
 }
 .seasonIn{
     height: 200px;
@@ -263,3 +262,58 @@ ul{
     transform: scale(1.1);
 }
 
+.clipPhoto{
+    width: 370px;
+    height: 200px;
+    border-radius: 10px;
+    border:2px solid #1F2937 ;
+    transition: transform 0.3s;
+}
+.clipPhoto:hover{
+    transform: scale(1.1);
+}
+
+.clipContainer{
+    font-size: 34px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-left: 0;
+    margin-top: -30px;
+    margin-bottom: 80px;
+    display: flex;
+    gap: 16px;
+    background-color: #a4a9b0;
+    padding-top: 30px;
+    padding-bottom: 32px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.clips{
+    text-align: center;
+    background-color: #a4a9b0;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    align-items: center;
+}
+
+.clipLink{
+        height: 200px;
+        width: 370px;
+}
+.clipImage{
+    width: 370px;
+    height: 200px;
+    border-radius: 10px;
+    border:2px solid #1F2937 ;
+    transition: transform 0.3s;
+    filter: brightness(70%);
+
+}
+.clipImage:hover{
+    transform: scale(1.1);
+    filter: brightness(100%);
+}
