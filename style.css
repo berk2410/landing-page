@@ -3,6 +3,11 @@ body{
     flex-direction: column;
     margin: 0;
 }
+.body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
 img{
     height: 150px;
     width: 142px;
@@ -18,9 +23,10 @@ ul{
     background-color: #1F2937;
     display: flex;
     padding: 0px;
-    padding-bottom: 45px;
     justify-content: space-evenly;
     gap: 400px;
+	position:fixed; top:0px; left:0px; right:0px; 
+    z-index: 1;
 }
 .header .leftLink{
     font-size: 24px;
@@ -46,10 +52,11 @@ ul{
     flex-wrap: wrap;
     gap: 16px;
     margin: 0;
-    margin-top: -1px;
+    margin-top: 29px;
     margin-bottom: 80px;
     background-color: #1F2937;
     padding-bottom: 66px;
+    padding-top: 100px;
 
 }
 .top2{
@@ -194,7 +201,7 @@ ul{
     width: 120px;
     height: 35px;    
     border-radius: 10px;
-    border: 2px solid white;
+    border: 1px solid white;
     font-weight: bold;
     font-size: 15px;
     align-self: center;
