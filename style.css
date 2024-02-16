@@ -106,6 +106,7 @@ ul{
     width: 400px;
     border-radius: 10px;
     height: auto;
+    object-fit: cover;
 }
 .information{
     text-align: center;
