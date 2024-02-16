@@ -262,9 +262,70 @@ ul{
     transform: scale(1.1);
 }
 
-.clipPhoto{
+.BestclipPhoto{
     width: 370px;
     height: 200px;
+    border-radius: 10px;
+    border:2px solid #1F2937 ;
+    transition: transform 0.3s;
+}
+.BestclipPhoto:hover{
+    transform: scale(1.1);
+}
+
+.BestclipContainer{
+    font-size: 34px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-left: 0;
+    margin-top: -30px;
+    margin-bottom: 80px;
+    display: flex;
+    gap: 16px;
+    background-color: #a4a9b0;
+    padding-top: 30px;
+    padding-bottom: 32px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Bestclips{
+    text-align: center;
+    background-color: #a4a9b0;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    align-items: center;
+}
+
+.BestclipLink{
+        height: 200px;
+        width: 370px;
+}
+.BestclipImage{
+    width: 370px;
+    height: 200px;
+    border-radius: 10px;
+    border:2px solid #1F2937 ;
+    transition: transform 0.3s;
+    filter: brightness(70%);
+
+}
+.BestclipImage:hover{
+    transform: scale(1.1);
+    filter: brightness(100%);
+}
+.BestclipText{
+    font-size: 20px;
+}
+
+
+
+.clipPhoto{
+    width: 185px;
+    height: 100px;
     border-radius: 10px;
     border:2px solid #1F2937 ;
     transition: transform 0.3s;
@@ -281,7 +342,7 @@ ul{
     margin-top: -30px;
     margin-bottom: 80px;
     display: flex;
-    gap: 16px;
+    gap: 0px;
     background-color: #a4a9b0;
     padding-top: 30px;
     padding-bottom: 32px;
@@ -295,18 +356,19 @@ ul{
     color: #ffffff;
     display: flex;
     flex-direction: column;
+    margin: 8px;
     gap: 10px;
-    width: 400px;
+    width: 200px;
     align-items: center;
 }
 
 .clipLink{
-        height: 200px;
-        width: 370px;
+    height: 100px;
+    width: 200px;
 }
 .clipImage{
-    width: 370px;
-    height: 200px;
+    width: 185px;
+    height: 100px;
     border-radius: 10px;
     border:2px solid #1F2937 ;
     transition: transform 0.3s;
@@ -316,4 +378,7 @@ ul{
 .clipImage:hover{
     transform: scale(1.1);
     filter: brightness(100%);
+}
+.clipText{
+    font-size: 16px;
 }
