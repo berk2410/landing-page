@@ -119,11 +119,12 @@ ul{
 }
 .content{
     display: flex;
-    justify-content:center;
+    justify-content: space-evenly;
     gap: 48px;
+    margin-left: 32px;
+    margin-right: 32px;
     margin-bottom: 70px;
     flex-wrap: wrap;
-
 }
 .box {
     height: 150px;
